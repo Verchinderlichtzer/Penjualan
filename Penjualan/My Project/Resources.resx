@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="user_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbnail_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\thumbnail_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_pelanggan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\title_pelanggan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumbnail_tracking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\thumbnail_tracking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_transaksi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\title_transaksi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_barang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\title_barang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\title_dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_laporan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\title_laporan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_catatan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\title_catatan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gagal_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\gagal_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="struk_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\struk_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_true_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_true_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaksi_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\transaksi_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hapus_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\hapus_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\question_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_tracking_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_tracking_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_false_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_false_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamation_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\exclamation_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simpan_kuning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\simpan_kuning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\print_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pelanggan_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\pelanggan_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barang_coklat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Penjualan\barang_coklat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berhasil_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\berhasil_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\edit_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_merah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\logout_merah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_true_ungu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\check_true_ungu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laporan_tracking_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\laporan_tracking_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_tracking_biru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\user_tracking_biru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radio_false_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\radio_false_disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\title_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catatan_hijau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\catatan_hijau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Umum\clear_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Download\Aard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Axii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Download\Axii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Igni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Download\Igni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Download\Quen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yrden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Pictures\An Image\Download\Yrden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
